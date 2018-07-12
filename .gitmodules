@@ -1,0 +1,11 @@
+[submodule "codal-core"]
+	path = libraries/codal-core
+	url = https://github.com/LabAixBidouille-STM32/codal-core.git
+
+[submodule "codal-stm32l475"]
+	path = libraries/codal-stm32l475
+	url = https://github.com/nedseb/codal-stm32l475.git
+
+[submodule "codal-"]
+	path = libraries/codal-stm32-iot-node
+	url = https://github.com/LabAixBidouille-STM32/codal-stm32-iot-node.git
