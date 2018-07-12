@@ -15,3 +15,5 @@ pxtapp
 buildcache.json
 *.pyc
 codal.json
+*.code-workspace
+source/
