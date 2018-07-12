@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "includePath": [
+                "${workspaceRoot}/libraries/codal-core/inc/**",
+                "${workspaceRoot}/libraries/codal-stm32l475/inc/**",
+                "${workspaceRoot}/libraries/codal-stm32-iot-node/inc/**",
+                "${workspaceRoot}/libraries/codal-stm32-iot-node/model/**",
+                "${workspaceRoot}/libraries/codal-stm32l475/stm32cube/stm32l4xx/drivers/include/**",
+                "${workspaceRoot}/libraries/codal-stm32l475/stm32cube/stm32l4xx/soc/**",
+                "${workspaceRoot}/libraries/**"
+            ],
+            "name": "Linux",
+            "defines": [
+                "STM32L4",
+                "STM32L475xx",
+                "DMESG_SERIAL_DEBUG",
+                "USE_HAL_DRIVER"
+            ],
+            "intelliSenseMode": "clang-x64",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
