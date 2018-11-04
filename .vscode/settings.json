@@ -1,3 +1,18 @@
 // Place your settings in this file to overwrite default and user settings.
 {
+    "files.associations": {
+        "array": "cpp",
+        "functional": "cpp",
+        "istream": "cpp",
+        "ostream": "cpp",
+        "type_traits": "cpp",
+        "tuple": "cpp",
+        "utility": "cpp",
+        "stm32.h": "c",
+        "serial_api.h": "c",
+        "peripheralnames.h": "c",
+        "pinmap.h": "c",
+        "platform_includes.h": "c",
+        "pinnumber.h": "c"
+    }
 }

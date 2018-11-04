@@ -15,3 +15,6 @@ buildcache.json
 codal.json
 *.code-workspace
 source/
+.idea/
+cmake-build-*
+
