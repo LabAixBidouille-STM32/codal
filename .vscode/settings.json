@@ -13,6 +13,9 @@
         "peripheralnames.h": "c",
         "pinmap.h": "c",
         "platform_includes.h": "c",
-        "pinnumber.h": "c"
+        "pinnumber.h": "c",
+        "cmsis.h": "c",
+        "pinnamestypes.h": "c",
+        "stm32l4xx_hal.h": "c"
     }
 }

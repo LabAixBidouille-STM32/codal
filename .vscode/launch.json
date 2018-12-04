@@ -2,6 +2,22 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "openocd",
+            "cwd": "${workspaceRoot}",
+            "executable": "${workspaceRoot}/build/STM32_IOT_NODE",
+            "name": "Debug (OpenOCD)",
+            "device": "STM32L475VGTx",
+			"searchDir": [
+				"/usr/share/openocd/scripts/",
+				"${workspaceRoot}/libraries/codal-stm32-iot-node/scripts/"
+			],
+            "configFiles": [
+				"openocd.cfg",
+			],
+        },
+        {
             "name": "C++ Launch",
             "type": "cppdbg",
             "request": "launch",
