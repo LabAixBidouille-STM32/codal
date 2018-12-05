@@ -16,6 +16,10 @@
         "pinnumber.h": "c",
         "cmsis.h": "c",
         "pinnamestypes.h": "c",
-        "stm32l4xx_hal.h": "c"
+        "stm32l4xx_hal.h": "c",
+        "stm32l475e_iot01_sensor.h": "c",
+        "vl53l0x_api.h": "c",
+        "vl53l0x_platform.h": "c",
+        "vl53l0x_platform_log.h": "c"
     }
 }
